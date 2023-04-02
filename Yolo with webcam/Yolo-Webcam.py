@@ -3,10 +3,10 @@ import cv2
 import cvzone
 import math
 
-#cap = cv2.VideoCapture(0) #if using 1 camera use 0 if using many cameras use 1 for webcam
-#cap.set(3, 1280)
-#cap.set(4, 720)
-cap = cv2.VideoCapture('../Videos/bikes.mp4') #for video
+cap = cv2.VideoCapture(0) #if using 1 camera use 0 if using many cameras use 1 for webcam
+cap.set(3, 1280)
+cap.set(4, 720)
+#cap = cv2.VideoCapture('../Videos/bikes.mp4') #for video
 
 
 
